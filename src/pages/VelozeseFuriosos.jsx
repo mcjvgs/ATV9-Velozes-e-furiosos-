@@ -6,12 +6,13 @@ export default function VelozeseFuriosos() {
   return (
       <div>
         <Header />
-        <main className="flex flex-col items-center">
+  
+        <main className="flex flex-col items-center mt-20">
           <img src={Furiosos10} alt="imagem da capa do filme" />
         </main>
         
         <div className="flex flex-col items-center">
-          <h2 className="text-4xl font-bold my-5 text-cyan-400">Sinopse</h2>
+          <h2 className="text-4xl font-bold my-5 text-gray-400">Sinopse</h2>
         </div>
 
         <div>
@@ -19,7 +20,7 @@ export default function VelozeseFuriosos() {
         </div>
 
         <div className="flex flex-col items-center"> 
-          <a href="https://www.adorocinema.com/filmes/filme-242871/" className=" font-bold text-red-600">Saiba Mais</a>
+          <a href="https://www.adorocinema.com/filmes/filme-242871/" className=" font-bold text-red-400">Saiba Mais</a>
         </div>
       </div>
   )
